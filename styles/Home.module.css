@@ -1,0 +1,216 @@
+.container {
+  border: none;
+}
+
+.main {
+  width: 100%;
+  max-width: 680px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.main h2 {
+  color: #eaeaea;
+  font-weight: 500;
+  font-size: 3.3rem;
+  line-height: 1;
+  letter-spacing: 10;
+  text-align: center;
+  line-height: 3.5rem;
+  margin-bottom: 0;
+}
+
+.main h2 span {
+  font-weight: 700;
+  background: linear-gradient(118deg, #4ed2f3, #bd93da 70%, #6270ee);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 507px) {
+  .main h2 {
+    font-size: 3rem;
+    margin: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .main h2 {
+    font-size: 2.4rem;
+    margin: 0 1rem;
+    line-height: 3rem;
+  }
+}
+
+@media screen and (max-width: 387px) {
+  .main h2 {
+    font-size: 2.1rem;
+    margin: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 317px) {
+  .main h2 {
+    font-size: 1.9rem;
+    margin: 0 1rem;
+  }
+}
+
+.main h3 {
+  text-align: center;
+  color: #9ca3af;
+  font-weight: 200;
+  -webkit-margin-before: 0.1em;
+          margin-block-start: 0.1em;
+}
+
+.main h3 span {
+  font-weight: 300;
+  background: linear-gradient(118deg, #4ed2f3, #bd93da 70%, #6270ee);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.explore {
+  position: relative;
+  margin-top: 3rem;
+  padding: 0 0.5rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+  .explore {
+    padding: 0 0.25rem;
+  }
+}
+
+.explore h2 {
+  color: #eaeaea;
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  text-align: center;
+}
+
+.explore .inner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.morecont {
+  height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5rem;
+}
+
+.morecont .s_button {
+  background-color: #20283c;
+  border-radius: 10px;
+  width: 50%;
+  max-width: 400px;
+  min-width: 270px;
+  height: 90%;
+  cursor: pointer;
+  border: 1px solid rgba(253, 253, 253, 0.056);
+  padding: 0;
+  -webkit-transition: 0.1s all ease;
+  transition: 0.1s all ease;
+  color: #ffffff6c;
+  font-size: 1.2rem;
+}
+
+.morecont .s_button:hover {
+  background-color: #2a334b;
+  color: #fff;
+}
+
+@media screen and (max-width: 387px) {
+  .morecont .s_button {
+    height: 70%;
+    font-size: 1rem;
+  }
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0.2rem 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-top: 1px solid #eaeaea07;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.footer .adspace {
+  margin-top: 6rem;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.footer .inner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 0.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #9bbff8;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer .inner a {
+  cursor: pointer;
+}
+
+.footer .inner a:hover {
+  color: #eaeaea;
+}
+
+@media screen and (max-width: 460px) {
+  .footer .inner {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .inner a, .footer .inner p {
+    width: 90%;
+    text-align: center;
+  }
+}

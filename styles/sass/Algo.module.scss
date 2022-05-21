@@ -1,0 +1,143 @@
+.container{
+  // border: 1px solid red;
+
+  .search{
+    height: 3.5rem;
+    width: 98%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(253, 253, 253, 0.056);
+    background-color: #20283c;
+    margin-top: 1rem;
+
+    .inputfield{
+      height: 100%;
+      width:75%;
+      border: none;
+      padding-left: 0.4rem;
+      font-size: 1.2rem;
+      background-color: transparent;
+      outline: none;
+      color: #fff;
+      font-weight: 100;
+
+      &::placeholder{
+        color: #ffffff6c;
+      }
+
+
+    }
+
+    .search{
+      height: 100%;
+      width: 16%;
+      margin:0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+
+      &:hover{
+        background-color: #2a334b;
+      }
+    }
+    .close{
+      width: 9%;
+      color: #fff;
+      font-size: 1.3rem;
+      color: rgba(246, 53, 53, 0.379);
+      height: 100%;
+      border: none;
+      background-color: transparent;
+
+      &:hover{
+        color: rgb(235, 34, 34);
+      }
+
+    }
+  }
+
+
+
+
+    .explore{
+        position: relative;
+        margin-top: 2rem;
+        padding: 0 0.5rem;
+        height: auto;
+        font-weight: 400;
+    
+    
+        @media screen and (max-width:800px) {
+                
+         padding: 0 0.25rem;
+      }
+        h2{
+          color: #eaeaea;
+          font-size: 2rem;
+          padding: 0;
+          margin: 0;
+          font-weight: 500;
+          text-align: center;
+          
+        }
+    
+        .inner{
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+    
+        }
+        
+      }
+}
+
+.currentpagi{
+
+  width: 180px;
+  height: 2.8rem;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  overflow: hidden;
+
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+  .pagibtn{
+    width: 30%;
+    height: 98%;
+    border-radius: 10px;
+    border: 1px solid rgba(253, 253, 253, 0.056);
+    background-color: #20283c;
+    color: #ffffff6c;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    &:hover{
+      background-color: #3d4b72;
+                color: #fff;
+    }
+
+  }
+  .currentPagi{
+    @extend .pagibtn;
+    text-align: center;
+  }
+}

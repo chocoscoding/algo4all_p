@@ -1,0 +1,48 @@
+.container {
+  margin: 0 0.5rem;
+}
+
+.container h1 {
+  font-size: 2.3rem;
+  color: #fff;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+@media screen and (max-width: 700px) {
+  .container h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .container h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.container .explantion {
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(253, 253, 253, 0.056);
+  background-color: #2a334b;
+}
+
+.container .explantion p {
+  margin: 0.6rem 0.5rem;
+  color: #ffffff6c;
+}
+
+.container .code {
+  width: 98%;
+  margin: auto;
+  margin-top: 1rem;
+  max-width: 900px;
+}
